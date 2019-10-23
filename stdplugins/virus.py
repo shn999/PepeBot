@@ -20,13 +20,13 @@ async def _(event):
 
         return
 
-    animation_interval = 12
+    animation_interval = 16
 
     animation_ttl = range(0, 30)
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "virus":
+    if input_str == "virus is coming your way just wait for 30 seconds":
 
         await event.edit(input_str)
 
