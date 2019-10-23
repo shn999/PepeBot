@@ -1,5 +1,5 @@
 """Get Telegram Profile Picture and other information
-Syntax: .rendi @username"""
+Syntax: .info @username"""
 
 import html
 from telethon.tl.functions.photos import GetUserPhotosRequest
@@ -9,7 +9,7 @@ from telethon.utils import get_input_location
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd("rendi ?(.*)"))
+@borg.on(admin_cmd("info ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -63,9 +63,9 @@ List Of Telegram Data Centres:
 
 DC1 : Miami FL, USA
 DC2 : Amsterdam, NL
-DC3 : Miami FL, USA
-DC4 : Amsterdam, NL
-DC5 : Singapore, SG
+DC3 : Jerusalem, ISR
+DC4 : Mumbai, IN
+DC5 : SUN, UNIVERSE
 """.format(
         user_id,
         user_id,
