@@ -1,6 +1,6 @@
 """Emoji
 Available Commands:
-.aakash"""
+.mayur"""
 
 from telethon import events
 
@@ -24,61 +24,61 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "aakash":
+    if input_str == "mayur":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "😈Mayur😈😈😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️◼️😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️◼️️😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️◼️◼️️😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️◼️◼️😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️◼️◼️◼️😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "‎◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "‎◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈◼️◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n😈AaKash😈😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n😈Mayur😈😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈AaKash😈😈AaKash😈◼️◼️\n◼️😈AaKash😈😈AaKash😈😈AaKash😈◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈Mayur😈😈Mayur😈◼️◼️\n◼️😈Mayur😈😈Mayur😈😈Mayur😈◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈AaKash😈😈AaKash😈◼️◼️\n◼️😈AaKash😈😈AaKash😈◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈Mayur😈😈Mayur😈◼️◼️\n◼️😈Mayur😈😈Mayur😈◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈AaKash😈😈AaKash😈◼️◼️\n◼️😈AaKash😈◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈Mayur😈😈Mayur😈◼️◼️\n◼️😈Mayur😈◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈AaKash😈😈AaKash😈◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️😈Mayur😈😈Mayur😈◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️😈AaKash😈◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️😈Mayur😈◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
             "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
