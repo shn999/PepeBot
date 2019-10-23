@@ -20,7 +20,7 @@ async def _(event):
 
         return
 
-    animation_interval = 16
+    animation_interval = 12
 
     animation_ttl = range(0, 30)
 
