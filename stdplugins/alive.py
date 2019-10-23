@@ -9,7 +9,22 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`Your bot is running\n\nTelethon version: 1.10.6\nPython: 3.7.4\nUser: @kirito6969\nDatabase Status: Telegram Databases functioning normally!`"
+    mentions =       "i am ON My Mastor \n\n"
+                     " \n\n"
+                     "botdo is ON \n\n"
+                     f"Telethon version: {version.__version__} \n"
+                     f"Python: {python_version()} \n"
+                     f"--------------------------- \n"
+                     f"User: {DEFAULTUSER} \n"
+                     " \n\n"
+                     f"Creator: Mayur Karaniya \n"
+                     " \n\n"
+                     f"Owner: 3Cube TeKnoways \n"
+                     " \n\n"
+                     f"Userbot: testuserbot "
+                     f" \n\n"
+                     f"Database Status: Telegram Databases functioning normally!`"
+                    
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
