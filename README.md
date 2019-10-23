@@ -6,4 +6,4 @@
 
 [![Warning](https://telegra.ph/file/286423143f2648748fc7c.jpg)](https://telegra.ph/file/9c4ab0d3edb3fdd6d17e5.mp4 "CopyLeft Credit Video")
 
-![](https://telegra.ph/file/9c4ab0d3edb3fdd6d17e5.mp4)[🇮🇳🇮🇳🇮🇳🇮🇳](https://telegram.dog/Three_Cube_TeKnoways)
+![](https://telegra.ph/file/9c4ab0d3edb3fdd6d17e5.mp4)[👑👑👑👑👑👑👑](https://telegram.dog/Three_Cube_TeKnoways)
