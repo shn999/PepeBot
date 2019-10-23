@@ -118,7 +118,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 event.data_match.group(1).decode("UTF-8"))
             buttons = paginate_help(
                 current_page_number + 1, borg._plugins, "helpme")
-            # https://t.me/PaperplaneExtended_news/55
+            # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
             reply_pop_up_alert = "⚠️ Warning: Don't Press Any Buttons ⚠️\n\nCustom Fork: https://github.com/mkaraniya/PepeBot\n\n\nNote: Bas kar, "
