@@ -1,11 +1,11 @@
-"""COMMAND : .info, .dc, .nigga"""
+"""COMMAND : .helpme, .dc, .nigga"""
 
 import sys
 from telethon import events, functions, __version__
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd(pattern="info ?(.*)", allow_sudo=True))  # pylint:disable=E0602
+@borg.on(admin_cmd(pattern="helpme ?(.*)", allow_sudo=True))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
@@ -53,7 +53,7 @@ async def _(event):
         return
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
-    logger.info(result)  # pylint:disable=E0602
+    logger.helpme(result)  # pylint:disable=E0602
     await event.edit("""Telethon UserBot powered by @UniBorg""")
 
 
@@ -70,5 +70,5 @@ async def _(event):
         else:
             plugin_syntax = f"No DOCSTRING has been setup for {plugin_name} plugin."
     else:
-        plugin_syntax = "Enter valid **Plugin** name.\nDo `.stdplugins` or `.info` to get list of valid plugin names."
+        plugin_syntax = "Enter valid **Plugin** name.\nDo `.stdplugins` or `.helpme` to get list of valid plugin names."
     await event.edit(plugin_syntax)
