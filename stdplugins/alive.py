@@ -10,19 +10,19 @@ async def _(event):
     if event.fwd_from:
         return
     mentions =       f"i am ON My Mastor \n\n"
-                     f" \n\n"
+                      \n\n"
                      f"botdo is ON \n\n"
                      f"Telethon version: {version.__version__} \n"
                      f"Python: {python_version()} \n"
                      f"--------------------------- \n"
                      f"User: {DEFAULTUSER} \n"
-                     f" \n\n"
+                      \n\n"
                      f"Creator: Mayur Karaniya \n"
-                     f" \n\n"
+                      \n\n"
                      f"Owner: 3Cube TeKnoways \n"
-                     f" \n\n"
+                      \n\n"
                      f"Userbot: testuserbot "
-                     f" \n\n"
+                      \n\n"
                      f"Database Status: Telegram Databases functioning normally!`"
                     
     chat = await event.get_input_chat()
