@@ -39,7 +39,7 @@ async def carbon_api(e):
    chrome_options.add_argument('--disable-gpu')
    prefs = {'download.default_directory' : './'}
    chrome_options.add_experimental_option('prefs', prefs)
-   await e.edit("⬛⬛⬜⬜⬜ 30%")
+   await e.edit("M A ⬜⬜⬜ 30%")
 
    driver = webdriver.Chrome(executable_path=Config.CHROME_DRIVER, options=chrome_options)
    driver.get(url)
@@ -52,11 +52,11 @@ async def carbon_api(e):
    sleep(5) # this might take a bit.
    driver.find_element_by_xpath("//button[contains(text(),'4x')]").click()
    sleep(5)
-   await e.edit("⬛⬛⬛⬜⬜ 50%")
+   await e.edit("M A Y ⬜⬜ 50%")
    driver.find_element_by_xpath("//button[contains(text(),'PNG')]").click()
    sleep(5) #Waiting for downloading
 
-   await e.edit("⬛⬛⬛⬛⬛ 100%")
+   await e.edit("M A Y U R ⬛ 100%")
    file = './carbon.png'
    await e.edit("✅Carbon Completed, Uploading Carbon✅")
    await e.client.send_file(
