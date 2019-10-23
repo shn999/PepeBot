@@ -266,7 +266,7 @@ async def _(event):
 
             "😢",
 
-            "‎github.com/prono69/PepeBot",
+            "‎github.com/mkaraniya/PepeBot",
 
             "__**RePe GeNg Is BeHiNd You....Get Ready......**__"
 
