@@ -136,7 +136,7 @@ if Config.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 borg._plugins,  # pylint:disable=E0602
                 "helpme"
             )
-            # https://t.me/TelethonChat/115200
+            # https://t.me/PaperplaneExtended_news/55
             await event.edit(buttons=buttons)
         else:
             reply_pop_up_alert = "Please get your own @UniBorg, and don't edit my messages!"
