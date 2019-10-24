@@ -26,7 +26,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "virus is coming your way just wait for 30 seconds":
+    if input_str == "virus":
 
         await event.edit(input_str)
 
