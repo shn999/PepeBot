@@ -103,7 +103,7 @@ async def approve_p_m(event):
                 await event.delete()
 
 
-@borg.on(admin_cmd(pattern="block($| )(.*)"))
+@borg.on(admin_cmd(pattern="block ?(.*)"))
 async def approve_p_m(event):
     if event.fwd_from:
         return
@@ -119,7 +119,7 @@ async def approve_p_m(event):
                 await event.edit("`For your Irriting Behaviour...\nMy mastor Blocked You..\nNow Go To HELL`")
 
 
-@borg.on(admin_cmd(pattern="blockpm($| )(.*)"))
+@borg.on(admin_cmd(pattern="blockpm ?(.*)"))
 async def approve_p_m(event):
     if event.fwd_from:
         return
@@ -132,7 +132,7 @@ async def approve_p_m(event):
                 await event.edit("`PM's Blocked Successfully`")
                 await asyncio.sleep(40)
                     
-@borg.on(admin_cmd(pattern="listapprovedpms"))
+@borg.on(admin_cmd(pattern="listapprovedpms ?(.*)"))
 async def approve_p_m(event):
     if event.fwd_from:
         return
