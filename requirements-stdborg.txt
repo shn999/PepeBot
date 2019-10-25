@@ -22,6 +22,7 @@ qrcode
 regex
 requests
 PyGithub
+nltk
 speedtest-cli
 sqlalchemy
 telegraph
