@@ -31,8 +31,8 @@ wikipedia
 youtube-dl
 lxml
 git+https://github.com/LonamiWebs/Telethon
-git+https://github.com/dylanaraps/neofetch
 git+https://github.com/ahupp/python-magic
 oauth2client
 httplib2
 humanize
+git+https://github.com/dylanaraps/neofetch
