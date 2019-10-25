@@ -33,7 +33,7 @@ async def register(cb):
     cb(LydiaMod())
 
 
-class LydiaMod(loader.Module):
+# class LydiaMod(loader.Module):
     """Talks to a robot instead of a human"""
     
 @borg.on(admin_cmd(incoming=True))
