@@ -30,7 +30,7 @@ if Config.LYDIA_API is not None:
 
 @borg.on(admin_cmd(incoming=True))
 async def register(cb):
-    cb(LydiaMod())
+#    cb(LydiaMod())
 
 
 # class LydiaMod(loader.Module):
