@@ -83,7 +83,7 @@ async def set_no_log_p_m(event):
                 await event.delete()
 
 
-@borg.on(admin_cmd(pattern="approve($| )(.*)"))
+@borg.on(admin_cmd(pattern="approve ?(.*)"))
 async def approve_p_m(event):
     if event.fwd_from:
         return
