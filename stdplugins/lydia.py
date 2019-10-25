@@ -18,41 +18,12 @@ from sql_helpers.lydia_ai_sql import get_s, get_all_s, add_s, remove_s
 from time import time
 from uniborg.util import admin_cmd
 
-# logger = logging.getLogger(__name__)
+
 
 if Config.LYDIA_API is not None:
     api_key = Config.LYDIA_API
     # Initialise client
     api_client = cf.API(api_key)
-
-    
-
-
-@borg.on(admin_cmd(incoming=True))
-async def register(cb):
-#    cb(LydiaMod())
-
-
-# class LydiaMod(loader.Module):
-    """Talks to a robot instead of a human"""
-    
-@borg.on(admin_cmd(incoming=True))
-async def __init__(self):
-        self.config = loader.ModuleConfig("CLIENT_KEY", "", _("The API key for lydia, acquire from @IntellivoidDev"),
-                                          "IGNORE_NO_COMMON", False, _("Boolean to ignore users who have no chats "
-                                                                       + "in common with you"))
-        self.name = _("Lydia anti-PM")
-        self._ratelimit = []
-        self._cleanup = None
-        
-@borg.on(admin_cmd(incoming=True))
-async def client_ready(self, client, db):
-        self._db = db
-        self._lydia = coffeehouse.API(self.config["CLIENT_KEY"])
-        self._me = await client.get_me()
-        # Schedule cleanups
-        self._cleanup = asyncio.ensure_future(self.schedule_cleanups())
-        
 
 
 @borg.on(admin_cmd(pattern="(e|d|l)ai", allow_sudo=True))
